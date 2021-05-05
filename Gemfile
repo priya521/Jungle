@@ -35,6 +35,7 @@ gem 'carrierwave'
 gem 'rmagick'
 gem 'stripe'
 gem 'faker'
+gem 'bigdecimal', '1.3.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -59,7 +60,6 @@ group :production do
   gem 'newrelic_rpm'
   gem 'rails_12factor'
 end
-
 
 group :test do
   gem 'capybara'
